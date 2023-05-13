@@ -1,14 +1,20 @@
 # opensky-api-angular-project
 
-opensky-api-angular-project is an assessment project for a job application. It is a simple project that displays flight data from the opensky API in a simple UI.
+opensky-api-angular-project is an assessment project for a job application. It is a simple angular project that displays flight data from the opensky API in a simple UI.
 
-## Project layout
+## Project link
 
-[HAMOYE JOB ASSESSMENT]([https://gist.github.com/Hamoye/a3c0d694629f1944967897f42380b93d])
+[HAMOYE JOB ASSESSMENT](https://gist.github.com/Hamoye/a3c0d694629f1944967897f42380b93d)
 
 ## Project Notes
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+### Login details
 
-Please make sure to update tests as appropriate.
+- email: `traveler@gmail.com`
+- password: `iloveflying`
+
+### Built With
+
+- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+- ![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
+- ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
