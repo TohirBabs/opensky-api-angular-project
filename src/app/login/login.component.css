@@ -1,0 +1,13 @@
+.login-main {
+  background-image: url("../../assets/login.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+
+mat-card {
+  min-width: 40%;
+}

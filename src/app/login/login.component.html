@@ -1,1 +1,49 @@
-<p>login works!</p>
+<form
+  fxLayout="row"
+  fxLayoutAlign="center center"
+  class="login-main"
+  autocomplete="on"
+  [formGroup]="loginForm"
+  (ngSubmit)="onSubmit()"
+>
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title-group>
+        <mat-card-title>Hamoye Flights Tracker</mat-card-title>
+        <mat-card-subtitle>Keeping track of all flights</mat-card-subtitle>
+        <img mat-card-sm-image src="assets/airplane-icon.png" />
+      </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-content fxLayout="column">
+      <mat-form-field>
+        <input
+          type="email"
+          matInput
+          placeholder="Email"
+          formControlName="email"
+        />
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Enter your password</mat-label>
+        <input
+          [type]="hide ? 'password' : 'text'"
+          matInput
+          placeholder="password"
+          formControlName="password"
+        />
+        <button
+          mat-icon-button
+          matSuffix
+          (click)="hide = !hide"
+          [attr.aria-label]="'hide password'"
+          [attr.aria-pressed]="hide"
+        >
+          <mat-icon>{{ hide ? "visibility_off" : "visibility" }}</mat-icon>
+        </button>
+      </mat-form-field>
+    </mat-card-content>
+    <mat-card-actions align="end">
+      <button mat-raised-button color="primary">Login</button>
+    </mat-card-actions>
+  </mat-card>
+</form>
